@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>L´Pegfume</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand">
+          <img src="img/logo.png" alt="Logo" height="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/testimonials.html"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/tips.html">Tips</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="hero text-center">
+      <h1 class="display-1">Unveil Your Scent</h1>
+    </main>
+    <div class="separator">
+      <img src="img/lineaseparador.png" alt="Separator Image" />
+    </div>
+    <section
+      class="products container text-center d-flex flex-column justify-content-center"
+    >
+      <h2 class="mb-4">Featured Products</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img
+              src="img/perfume17.jpeg"
+              class="card-img-top product-img"
+              alt="Product 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Toy Moschino</h5>
+              <p class="card-text">A mi parecer el mejor de todos</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img
+              src="img/perfume13.jpeg"
+              class="card-img-top product-img"
+              alt="Product 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Boss</h5>
+              <p class="card-text">Hugo Boss Unlimited</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card product-card">
+            <img
+              src="img/perfume20.jpeg"
+              class="card-img-top product-img"
+              alt="Product 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pure XS</h5>
+              <p class="card-text">A serpent</p>
+              <button class="btn btn-primary">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separator">
+      <img src="img/lineaseparador.png" alt="Separator Image" />
+    </div>
+    <section
+      class="testimonial container text-center d-flex flex-column justify-content-center"
+    >
+      <div class="d-flex flex-column align-items-center">
+        <img src="img/perfilhome.jpeg" alt="Person" />
+        <h5>Sofia</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          ipsa voluptatum aliquid quae voluptatem necessitatibus? Deserunt,
+          autem modi ipsa hic a est quis fugiat incidunt temporibus, ducimus
+          iure beatae neque.
+        </p>
+      </div>
+    </section>
+    <div class="separator">
+      <img src="img/lineaseparador.png" alt="Separator Image" />
+    </div>
+    <section class="contact container">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="col-12 mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+        </div>
+      </form>
+    </section>
+    <footer class="bg-light text-center py-3">
+      <p>&copy; 2024 <span class="text-muted">Made by frysccouu</span></p>
+      <div class="social-icons">
+        <a
+          href="https://www.instagram.com/frysccou?igsh=dHg0Zm9pZjg3c2I1"
+          target="_blank"
+          aria-label="Instagram"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a
+          href="www.linkedin.com/in/francisco-espindola-ba3a50296/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Frysccou" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <span class="footer-text">SCENT</span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/03f7a3274c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
