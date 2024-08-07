@@ -1,0 +1,111 @@
+// Mobile (Portrait)
+@include respond-to("mobile") {
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+  .product-card .card-img-top {
+    height: 200px;
+  }
+
+  footer {
+    .footer-text {
+      font-size: 0.8rem !important; // Usa !important para asegurar que el tamaño de fuente se aplique
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+      text-align: center;
+    }
+  }
+
+  .social-icons a {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .intro p,
+  .our-story p,
+  .our-team p,
+  .our-values li,
+  .contact-us p {
+    font-size: 0.9rem;
+  }
+
+  .products .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .product-card,
+  .testimonial {
+    flex: 1 1 100%;
+  }
+}
+
+// Mobile (Landscape) and Tablet
+@include respond-to("tablet") {
+  .hero h1 {
+    font-size: 5rem;
+  }
+
+  .product-card .card-img-top {
+    height: 300px;
+  }
+
+  footer {
+    .footer-text {
+      font-size: $font-size-footer-text-mobile !important;
+      max-width: 100%;
+      white-space: normal;
+      overflow-wrap: break-word;
+      text-align: center;
+    }
+  }
+
+  .social-icons a {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .intro p,
+  .our-story p,
+  .our-team p,
+  .our-values li,
+  .contact-us p {
+    font-size: 1rem;
+  }
+
+  .products .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .product-card,
+  .testimonial {
+    flex: 1 1 100%;
+  }
+}

@@ -1,0 +1,17 @@
+// Mixin para media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "mobile" {
+    @media (max-width: 576px) {
+      @content;
+    }
+  } @else if $breakpoint == "tablet" {
+    @media (max-width: 768px) {
+      @content;
+    }
+  }
+}
+
+// Mixin para transiciones
+@mixin transition($property, $duration, $ease) {
+  transition: $property $duration $ease;
+}

@@ -1,0 +1,53 @@
+.intro {
+  padding: 3rem 0;
+
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.our-story,
+.our-team,
+.our-values,
+.contact-us {
+  padding: 3rem 0;
+}
+
+.our-story img {
+  max-width: 100%;
+  height: auto;
+}
+
+.team-member img {
+  max-width: 120px;
+  height: auto;
+}
+
+.our-team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+
+  .team-member {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h5 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.our-values ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+
+  li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.contact-us p {
+  font-size: 1rem;
+}
